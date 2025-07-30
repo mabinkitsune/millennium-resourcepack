@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 4,
-    "description": "MillenniumCraft resourcepacks"
+    "pack_format": 20,
+    "supported_formats": {
+      "min_inclusive": 7,
+      "max_inclusive": 22
+    },
+    "description": "Пакет ресурсов сервера\nMillenniumCraft 1.20+"
   }
 }
