@@ -1,0 +1,22 @@
+{
+  "craftmillenium": {
+    "sounds": [
+      "craft"
+    ]
+  },
+  "weathermillenium": {
+    "sounds": [
+      "weather"
+	  ]
+	  },
+  "obosralsamillenium": {
+    "sounds": [
+      "obosralsa"
+	  ]
+	  },
+  "secretmillenium": {
+    "sounds": [
+      "secret"
+	  ]
+	}
+}
