@@ -1,0 +1,49 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/bread",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/bread"
+    },
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/bread",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Croissant","Круассан"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/croissant"
+          }
+        },
+        {
+          "when": ["Baguette","Багет"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/baguette"
+          }
+        },
+        {
+          "when": ["Toffee","Ириска"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/toffee"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "minecraft:item/bread"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:item/bread"
+    }
+  }
+}

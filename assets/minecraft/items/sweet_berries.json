@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/sweet_berries",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/sweet_berries"
+    },
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/sweet_berries",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Raspberry","Малина"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/raspberry"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "minecraft:item/sweet_berries"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:item/sweet_berries"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/netherite_sword",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/netherite_sword"
+    },
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/netherite_sword",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Katana","Катана"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/katana"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "minecraft:item/netherite_sword"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

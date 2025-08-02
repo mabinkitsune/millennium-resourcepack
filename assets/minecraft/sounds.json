@@ -1,20 +1,20 @@
 {
-  "craftmillennium": {
+  "millennium_craft": {
     "sounds": [
       "craft"
     ]
   },
-  "weathermillennium": {
+  "millennium_weather": {
     "sounds": [
       "weather"
 	  ]
 	  },
-  "obosralsamillennium": {
+  "amillennium_blort": {
     "sounds": [
-      "obosralsa"
+      "blort"
 	  ]
 	  },
-  "secretmillennium": {
+  "millennium_secret": {
     "sounds": [
       "secret"
 	  ]
