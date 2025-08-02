@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:block/cobblestone",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:block/cobblestone"
+    },
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:block/cobblestone",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Rules","Правила"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:block/rules"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "minecraft:block/cobblestone"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:block/cobblestone"
+    }
+  }
+}
