@@ -98,7 +98,7 @@
 			"rotation": [0, 90, 0]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 90, 0]
+			"rotation": [0, -70, 10]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, 0]
