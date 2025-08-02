@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:block/carved_pumpkin",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:block/carved_pumpkin"
+    },
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:block/carved_pumpkin",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Nose","Нос"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:block/nose"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "minecraft:block/carved_pumpkin"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:block/carved_pumpkin"
+    }
+  }
+}

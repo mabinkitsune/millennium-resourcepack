@@ -47,6 +47,16 @@
 		},
 		"thirdperson_lefthand": {
 			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"scale": [0.8, 0.8, 0.8],
+			"translation": [-2, -2, 0],
+			"rotation": [0, 0, -50]
+		},
+		"fixed": {
+			"scale": [0.8, 0.8, 0.8],
+			"translation": [-2, -2, 0],
+			"rotation": [0, 0, -50]
 		}
 	}
 }
