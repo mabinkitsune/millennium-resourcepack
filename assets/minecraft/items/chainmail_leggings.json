@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/chainmail_leggings",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/chainmail_leggings"
+    },
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/chainmail_leggings",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Diaper","Подгузник"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:item/diaper"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "minecraft:item/chainmail_leggings"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:item/chainmail_leggings"
+    }
+  }
+}
