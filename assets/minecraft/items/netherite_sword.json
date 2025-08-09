@@ -18,7 +18,7 @@
           "when": ["Katana","Катана","Dev1lroot's Sword"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/katana"
+            "model": "minecraft:item/tools/katana"
           }
         }
       ],

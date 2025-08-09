@@ -18,7 +18,7 @@
           "when": ["Raspberry","Малина"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/raspberry"
+            "model": "minecraft:item/food/raspberry"
           }
         }
       ],

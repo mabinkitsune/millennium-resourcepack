@@ -18,7 +18,7 @@
           "when": ["Diaper","Подгузник"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/diaper"
+            "model": "minecraft:item/armor/diaper"
           }
         }
       ],

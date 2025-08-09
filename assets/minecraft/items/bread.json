@@ -18,21 +18,21 @@
           "when": ["Croissant","Круассан"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/croissant"
+            "model": "minecraft:item/food/croissant"
           }
         },
         {
           "when": ["Baguette","Багет"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/baguette"
+            "model": "minecraft:item/food/baguette"
           }
         },
         {
           "when": ["Toffee","Ириска"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/toffee"
+            "model": "minecraft:item/food/toffee"
           }
         }
       ],

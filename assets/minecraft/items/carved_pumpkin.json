@@ -20,6 +20,20 @@
             "type": "model",
             "model": "minecraft:block/nose"
           }
+        },
+        {
+          "when": ["Bunny Ears","Ушки"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:block/bunny_ears"
+          }
+        },
+        {
+          "when": ["PeekAbu Cap 1","Кепка 1"],
+          "model": {
+            "type": "model",
+            "model": "minecraft:block/peekabucap01"
+          }
         }
       ],
       "fallback": {

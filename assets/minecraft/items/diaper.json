@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/diaper"
+    "model": "minecraft:item/armor/diaper"
   }
 }

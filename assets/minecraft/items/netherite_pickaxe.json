@@ -18,7 +18,7 @@
           "when": ["Dev1lroot's Pickaxe"],
           "model": {
             "type": "model",
-            "model": "minecraft:item/davy_pickaxe"
+            "model": "minecraft:item/tools/davy_pickaxe"
           }
         }
       ],
